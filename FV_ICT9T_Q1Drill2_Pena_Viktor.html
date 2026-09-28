@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 DRILL 2</title>
+    <style>
+        body{font-family: Consolas;}
+
+        section{display: block; margin: auto; width: 600px; height: auto; background-color: rgb(224, 226, 84); box-shadow: 0px 3px 10px rgb(197, 16, 16); padding: 15px;}
+    
+        header {text-align: center;}
+
+        img{height: 160px; width: 160px; display: block; margin: auto;}
+
+         body {background-color: rgb(163, 207, 112);}
+
+        #Head, #Send {color: white; font-family: cursive;}
+
+        #Select, #Genre, #Link {color: rgb(112, 23, 50); font-family: cursive;}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="Head">Rate a Movie</h1>
+        <img src="https://static.vecteezy.com/system/resources/previews/011/720/962/original/black-clapper-film-cinema-icon-free-png.png" alt="movie logo">
+        <p id="Send">Send a review !</p>
+    </header>
+    <br>
+
+    <section>
+        <form action="">   
+            <label id="Select" for="movie">Select a Movie</label>
+            <select id="movie" name="movie">
+                <option value="">Select a Movie</option>
+                <option value="movie1">The Avengers</option>
+                <option value="movie2">Alice In Wonderland</option>
+                <option value="movie3">Big Hero 6</option>
+            </select>
+            <br><br>    
+
+            <label id="Genre" for="Genre">Genre/s</label>
+            <br>
+             <input type="checkbox" id="Genre1" name="genre1" value1="genre">
+            <label id="Genre" for="Genre1">Action</label>
+             <input type="checkbox" id="Genre2" name="genre2" value2="genre">
+            <label id="Genre" for="Genre2">Fantasy</label>
+             <input type="checkbox" id="Genre3" name="genre3" value3="genre">
+            <label id="Genre" for="Genre3">Sci-Fi</label>
+             <input type="checkbox" id="Genre4" name="genre4" value4="genre">
+            <label  id="Genre"for="Genre4">Horror</label>
+             <input type="checkbox" id="Genre5" name="genre5" value5="genre">
+            <label id="Genre" for="Genre5">Other</label>
+
+            <br><br>
+            <label id="Genre" for="rate">Rating</label>
+
+
+            <br>
+             <input type="radio" id="rate1" name="rating5" value="rate1">
+            <label for="rate1">⭐</label>
+             <input type="radio" id="rate2" name="rating5" value="rate2">
+            <label for="rate2">⭐⭐</label>
+             <input type="radio" id="rate3" name="rating5" value="rate3">
+            <label for="rate3">⭐⭐⭐</label>
+             <input type="radio" id="rate4" name="rating5" value="rate4">
+            <label for="rate4">⭐⭐⭐⭐</label>
+             <input type="radio" id="rate5" name="rating5" value="rate5">
+            <label for="rate5">⭐⭐⭐⭐⭐</label>
+        <br><br>
+
+            <textarea name="reivew" id="review" cols="40" rows="4" placeholder="Write your review here..."></textarea>
+
+            <br><br>
+
+            <input type="submit" id="submit" name="submit" value="Submit a Review">
+
+            <br>
+            <label id="Link">For more movie review tips, click <a href="https://www.imdb.com/" target="">🢃</a></label>
+        </form>
+    </section>
+
+</body>
+</html>
